@@ -1,11 +1,16 @@
 
 import './App.css';
-
+import Canvas from "./Canvas"
+import Customizer from './Pages/Customizer';
+import Home from './Pages/Home';
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main className='app transition-all ease-in'>
+     <Home/>
+     
+     <Canvas/>
+     <Customizer/> 
+    </main>
   );
 }
 
